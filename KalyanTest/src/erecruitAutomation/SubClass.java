@@ -14,7 +14,7 @@ public class SubClass extends BaseClass {
 		//CC.FlightSearch();
 		//CC.StudentDiscount();
 		//BC.AppLoin();
-		//BC.AddCandidatewithoutResume();
+		BC.AddCandidatewithoutResume();
 		//BC.AddCandidatewithResume();
 		//BC.CloseApp();
 	}
