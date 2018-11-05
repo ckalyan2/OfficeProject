@@ -2,6 +2,9 @@ package erecruitAutomation;
 
 import java.util.concurrent.TimeUnit;
 
+import erecruitAutomation.BaseClass;
+import erecruitAutomation.CandidateCreation;
+
 public class SubClass extends BaseClass {
 
 	public static void main(String[] args) throws InterruptedException {
@@ -13,9 +16,9 @@ public class SubClass extends BaseClass {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		//CC.FlightSearch();
 		//CC.StudentDiscount();
-		//BC.AppLoin();
+		BC.AppLoin();
 		BC.AddCandidatewithoutResume();
 		//BC.AddCandidatewithResume();
-		//BC.CloseApp();
+		BC.CloseApp();
 	}
 }

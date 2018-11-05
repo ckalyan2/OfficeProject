@@ -21,7 +21,7 @@ public class BaseClass {
 	public void LoginPage()
 	{
 		driver = new ChromeDriver();
-		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\KalyanTest\\chromedriver");
+		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\Test\\chromedriver.exe");
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		//driver.get("https://preview.erecruit.com");
@@ -81,8 +81,8 @@ public class BaseClass {
 			}
 		}
 //Bootstrap implementation ends.
-		driver.findElement(By.xpath("//input[@id=\"ctl00_cphMain_Address_txtFName\"]")).sendKeys("KalSelfrstTest12");
-		driver.findElement(By.xpath("//input[@id=\"ctl00_cphMain_Address_txtLName\"]")).sendKeys("KalSellastTest12");
+		driver.findElement(By.xpath("//input[@id=\"ctl00_cphMain_Address_txtFName\"]")).sendKeys("KalSelfrstTest17");
+		driver.findElement(By.xpath("//input[@id=\"ctl00_cphMain_Address_txtLName\"]")).sendKeys("KalSellastTest17");
 		driver.findElement(By.xpath("//input[@id=\"ctl00_cphMain_Address_txtAddr1\"]")).sendKeys("Miyapur,HYDERABAD");
 		driver.findElement(By.xpath("//input[@id=\"AdSourceDropdown_ddladsource\"]")).click();
 		driver.findElement(By.xpath("//ul/li/a[text()=\"Broadlook\"]")).click();
